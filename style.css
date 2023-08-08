@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    padding-left: 1em;
+    padding-top: .5em;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: azure;
+    color: #121212;
+    height: 10vh;
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+
+.links li{
+    padding-right: 1em;
+}
+
+.links li a:hover{
+    color: red;
+    transition: 1s ease;
+}
+
+.links li a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    padding-right: 1em;
+}
+
+.p{
+    padding-right: 1em;
+    cursor: pointer;
+    font-size: larger;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.content{
+    margin-left: 1em;
+    padding-left: 2em;
+    /* background-color: red; */
+    background-image: linear-gradient(to right, rgb(218, 212, 212) , rgb(124, 25, 25));
+    width: auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(128, 44, 44);
+}
+button{
+    margin-top: 2em;
+    padding-left: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid black;
+    padding-right: 1em;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.img{
+    /* height: ; */
+    /* width: 450px; */
+    margin-left: 10em;
+}
+
+.cc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.color{
+    background-image: linear-gradient(to right, rgb(218, 212, 212) , rgb(124, 25, 25));
+    margin-left: 1em;
+}
